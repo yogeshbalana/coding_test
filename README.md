@@ -22,8 +22,10 @@ Choose a name specific to your project, it must start with a letter and only con
 
 Install Docker in your system
 Run this command to add all dependency in your System
-1.docker build -t coding_assessment .
-2.docker run -it --rm coding_assessment
+
+docker build -t coding_assessment .
+
+docker run -it --rm coding_assessment
 
 ## Run Manually
 1. bundle exec ruby questionnaire.rb
