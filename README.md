@@ -1,12 +1,8 @@
-# Application template
-
 # Table of Contents  
 
 [About](#about)  
 
 [Setup](#setup)  
-
-[Project WIKI](https://gitlab.builder.ai/devops/template-app/-/wikis/home)  
 
 
 ## About  
@@ -27,7 +23,7 @@ docker build -t coding_assessment .
 
 docker run -it --rm coding_assessment
 
-## Run Manually
+## After the setup this repo via docker, run this command to check users feedback.
 1. bundle exec ruby questionnaire.rb
 
 ## Rub Test Cases
